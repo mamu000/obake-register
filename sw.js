@@ -1,4 +1,4 @@
-const C = 'obake-register-v1';
+const C = 'obake-register-v2';
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(C).then(c => c.addAll(['./', './index.html'])));
   self.skipWaiting();
